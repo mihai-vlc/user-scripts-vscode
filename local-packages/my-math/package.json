@@ -5,6 +5,7 @@
     "main": "out/my-math.js",
     "scripts": {
         "build": "tsc",
+        "watch": "tsc --watch",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
