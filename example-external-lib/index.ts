@@ -15,7 +15,17 @@ export const main = async (
     console.log(myMath.add(7, 4));
     console.log(myMath);
 
+    const hoverDisposable = vscode.languages.registerHoverProvider(
+        "typescript",
+        {
+            provideHover(doc: vscode.TextDocument) {
+                return new vscode.Hover("For *all* TypeScript documents.");
+            },
+        }
+    );
+
     return () => {
+        hoverDisposable.dispose();
         vscode.window.showInformationMessage("Cleanup");
     };
 };

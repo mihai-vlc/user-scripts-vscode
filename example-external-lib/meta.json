@@ -1,0 +1,30 @@
+{
+    "name": "example-external-lib",
+    "lang": "ts",
+    "description": "Example of how to use external libraries.",
+    "argumentConfig": {
+        "tooltip": {
+            "type": "string",
+            "defaultValue": "",
+            "description": ""
+        },
+        "color": {
+            "type": "enum",
+            "defaultValue": "",
+            "description": "",
+            "enumOptions": {
+                "enumNameMapping": {
+                    "1": "red",
+                    "2": "green"
+                },
+                "enumObject": {
+                    "1": "red",
+                    "2": "green",
+                    "red": 1,
+                    "green": 2
+                }
+            }
+        }
+    },
+    "presetArgs": []
+}

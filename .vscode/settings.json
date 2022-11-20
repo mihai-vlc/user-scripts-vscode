@@ -1,3 +1,9 @@
 {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "script-plus.configs.startUp.autoScripts": [
+        {
+            "parameter": {},
+            "script": "userscript-set-layout"
+        }
+    ]
 }
