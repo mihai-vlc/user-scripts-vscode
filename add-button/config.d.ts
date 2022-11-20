@@ -3,4 +3,5 @@
 
 export interface Config {
     readonly tooltip: string;
+    readonly color: 1 | 2;
 }
