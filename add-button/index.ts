@@ -1,9 +1,7 @@
 import * as vscode from "vscode";
 import type { ScriptRunResult } from "../api";
 import type { Config } from "./config";
-
 import slug from "slug";
-
 import * as myMath from "my-math";
 
 export const main = async (
