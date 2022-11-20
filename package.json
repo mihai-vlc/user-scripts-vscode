@@ -1,0 +1,11 @@
+{
+  "name": "user-scripts",
+  "version": "0.0.0",
+  "description": "Script folder for vscode plugin `Script Plus`.",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "@types/vscode": "1.73",
+    "slug": "^8.2.2"
+  }
+}
