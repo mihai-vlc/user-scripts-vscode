@@ -1,0 +1,8 @@
+{
+    "project-snippet-sample": {
+        "scope": "typescript",
+        "prefix": "cll",
+        "body": "console.log('$1', $2);$0",
+        "description": "console log value"
+    }
+}
