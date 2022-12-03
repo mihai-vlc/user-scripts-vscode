@@ -2,7 +2,12 @@
     "project-snippet-sample": {
         "scope": "typescript",
         "prefix": "cll",
-        "body": "console.log('$1', $2);$0",
+        // "body": "console.log('$1 =', $1);$0",
+        // use https://snippet-generator.app/ to get generate the snippet
+        // https://code.visualstudio.com/docs/editor/userdefinedsnippets
+        "body": [
+            "console.log('$1 =', $1);$0"
+        ],
         "description": "console log value"
     }
 }

@@ -13,10 +13,11 @@ export const main = async (
         {
             provideCompletionItems(document, position, token, context) {
                 console.log("completion calculated");
-
                 const snippetCompletion = new vscode.CompletionItem(
                     "Good part of the day"
                 );
+
+                // ref: https://code.visualstudio.com/docs/editor/userdefinedsnippets
                 snippetCompletion.insertText = new vscode.SnippetString(
                     "Good ${1|morning,afternoon,evening|}. It is ${1}, right?"
                 );
