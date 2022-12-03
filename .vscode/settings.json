@@ -5,5 +5,13 @@
             "parameter": {},
             "script": "userscript-set-layout"
         }
+    ],
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "aa.json"
+            ],
+            "url": "/.vscode/aa.schema.json"
+        }
     ]
 }
