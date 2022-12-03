@@ -1,0 +1,6 @@
+{
+  "name": "completion-provider",
+  "lang": "ts",
+  "description": "",
+  "argumentConfig": {}
+}
