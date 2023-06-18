@@ -52,7 +52,17 @@ async function gitFixup() {
         return;
     }
 
-    await vscode.commands.executeCommand("git.commit", repo);
+    // repo.inputBox.value = "Initial structure for the git helpers";
+    // await vscode.commands.executeCommand("git.commit", repo);
+
+    const log = (await repo.log()).filter(
+        (log) => log.message.indexOf("fixup!") == -1
+    );
+
+    console.log(log);
+
+    // repo.commit("");
+
     // await vscode.commands.executeCommand("git.stageAll", repo);
     // console.log("staged all");
 }
